@@ -25,7 +25,7 @@ const App = () => {
             <p>Author: {quotes.author}</p>
             <div className="button-container">
                 <button onClick={getQuotes} className="button">Get quote</button>
-                <a href={`https://twitter.com/intent/tweet?text=${quotes.text}`} target="_blank" rel="noopener noreferrer" className="button">Tweet</a>
+                <a href={`https://twitter.com/intent/tweet?text=${quotes.text}`} target="_blank" rel="noopener noreferrer" className="button">Tweet 🐦</a>
             </div>
         </div>
     </div>
