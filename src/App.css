@@ -13,6 +13,7 @@
 }
 
 .quotes {
+  font-family: cursive;
   margin: auto;
   width: 100%;
   max-width: 420px;
@@ -48,6 +49,10 @@ a {
   display: inline-block;
   text-align: center;
 }
+
+.button-container {
+  font-family: cursive;
+ }
 
 .button {
   background-color: darkblue;
